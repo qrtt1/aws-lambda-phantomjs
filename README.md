@@ -15,3 +15,7 @@ Run commands
   "cmd": "/bin/ls", "args":["-al", "/var/task"]
 }
 ```
+
+## known issues
+
+* we have no write permissions for generating fontconfig caches (no Fonts for CJK)
